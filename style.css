@@ -17,10 +17,14 @@ body {
   background: var(--bg-color);
 }
 .detail {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  /* ou dessa forma:
   position: absolute;
   right: 0;
   transform: translate(calc(0%), calc(100% - -720%));
-  width: 100px;
+  width: 100px; */
 }
 .container {
   display: flex;
@@ -76,6 +80,7 @@ footer hr {
   display: flex;
   gap: 30px;
   margin-top: 10px;
+  margin-bottom: 33px;
   color: var(--font-strong);
 }
 .container-footer a {
